@@ -1,15 +1,7 @@
 ﻿spring:
   profiles:
     active: test    
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-    virtual-host: xztest
-    username: root
-    password: 123456
-    connection-timeout: 10000
-    template:
-      mandatory: true
+      
 busi:
   ops: N
   
