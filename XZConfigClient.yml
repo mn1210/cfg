@@ -2,8 +2,6 @@
   profiles:
     active: test    
 ---
-server:
-  port: 8011
 spring:
   profiles: test
   application:
