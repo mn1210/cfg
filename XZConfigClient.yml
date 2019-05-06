@@ -7,7 +7,7 @@ server:
 spring:
   profiles: test
   application:
-    name:  xz-cfg-client
+    name:  XZConfigClient
 
 ---
 server:
@@ -15,7 +15,7 @@ server:
 spring:
   profiles: dev
   application:
-    name:  xz-cfg-client
+    name:  XZConfigClient
     
 ---
 server:
@@ -23,4 +23,4 @@ server:
 spring:
   profiles: prod
   application:
-    name:  xz-cfg-client 
+    name:  XZConfigClient
