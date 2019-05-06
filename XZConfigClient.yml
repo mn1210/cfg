@@ -1,13 +1,16 @@
 ﻿spring:
   profiles:
     active: test    
+busi:
+  ops: N
+  
 ---
+server:
+  port: 8011
 spring:
   profiles: test
   application:
     name:  XZConfigClient
-busi:
-  ops: N
 
 ---
 server:
