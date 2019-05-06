@@ -2,24 +2,25 @@
   profiles:
     active:test
 ---
-spring:
-  profiles:test
-  application:
-    name:test
 server:
-  port: 8011    
+  port: 8011
+spring:
+  profiles: test
+  application:
+    name:  xz-cfg-server-8011
 
 ---
+server:
+  port: 8012
 spring:
   profiles: dev
   application:
-    name:dev
-server:
-  port: 8012      
+    name:  xz-cfg-server-8012
+    
 ---
+server:
+  port: 8013
 spring:
   profiles: prod
   application:
-    name:prod
-server:
-  port: 8013   
+    name:  xz-cfg-server-8013 
