@@ -9,7 +9,7 @@ spring:
   application:
     name:  XZConfigClient
 busi:
-  ops: Y    
+  ops: N    
 
 ---
 server:
