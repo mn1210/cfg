@@ -1,0 +1,26 @@
+﻿spring:
+  profiles:
+    active:test
+---
+server:
+  port: 8011
+spring:
+  profiles: test
+  application:
+    name:  xz-cfg-client
+
+---
+server:
+  port: 8012
+spring:
+  profiles: dev
+  application:
+    name:  xz-cfg-client
+    
+---
+server:
+  port: 8013
+spring:
+  profiles: prod
+  application:
+    name:  xz-cfg-client 
